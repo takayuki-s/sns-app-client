@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React, { useState } from 'react'
 
-const signup = () => {
+const Signup = () => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
   const [password, setPassword] = useState<string>('')
@@ -99,4 +99,4 @@ const signup = () => {
   )
 }
 
-export default signup
+export default Signup
